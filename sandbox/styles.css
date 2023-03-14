@@ -1,0 +1,44 @@
+
+p {
+    font-size: large;
+    color: aquamarine;
+    background-color: black;
+}
+
+.middle {
+    background-color: orange;
+}
+
+.even {
+    width: 30%;
+}
+
+#box-section {
+    height: 50vh;
+    width: 50vw;
+    border: 3px solid black;
+    position: relative;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    z-index: 5;
+    position: relative;
+}
+
+
+#position-box {
+    position: sticky;
+    top: 75px;
+    left: 5px;
+    background-color: yellowgreen;
+    z-index: 2;
+}
+
